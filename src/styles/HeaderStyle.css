@@ -1,0 +1,50 @@
+.logo{
+    flex-grow: 1;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+    padding-left: 500px;
+    
+}
+
+.navigation li{
+    margin: 0px 20px;
+}
+   
+
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+ /* mobile view */
+
+.mobile{
+    list-style: none;
+}
+
+.mobile li{
+    margin-top: 20px;
+    padding-left: 45px;
+}
+
+.mobile li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-style: oblique;
+}
+
+.icons{
+    text-align: center;
+    padding: 3px;
+    font-size: 50px;
+}
